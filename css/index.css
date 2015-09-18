@@ -1,0 +1,35 @@
+#encabezado img {
+	width: 250px;
+	padding: 20px 25px;
+}
+nav.menu:first-of-type > a {
+	color: #696969;
+	border: 1px solid #ccc;
+	padding: 6px 30px;
+	text-decoration: none
+}
+nav.menu {
+	margin-bottom: 25px;
+}
+nav.menu:first-of-type > a:hover {
+	background: #00447B;
+	color: #fff;
+
+}
+nav.menu:last-of-type > a {
+	color: #333;
+	border: 1px solid #ccc;
+	background: #ccc;
+	padding: 6px 30px;
+	text-decoration: none
+}
+nav.menu:last-of-type > a:hover {
+	background: #333;
+	color: #fff;
+}
+table, th, td {
+	border: 1px solid #ccc;
+}
+td {
+	width: 100px;
+}
